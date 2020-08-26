@@ -1,5 +1,5 @@
 <?php
- 
+
 
   $receiving_email_address = 'comercial@strasatti.pt';
 
