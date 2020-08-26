@@ -130,6 +130,9 @@
       data: data,
       timeout: 40000
     }).done( function(msg){
+
+      msg = msg.trim();
+
       if (msg == 'OK') {
         this_form.find('.loading').slideUp();
         this_form.find('.sent-message').slideDown();
